@@ -12,7 +12,7 @@
 $version 	= '1.0.2';
 $random 	= rand(123456789, 6);
 $file 		= 'infogath_update.php';
-$url 		= 'https://www.gps.indsc.me/';
+$url 		= 'https://www.indsc.me/server/gps/';
 error_reporting(0);
 
 
